@@ -14,10 +14,8 @@
     _address = address;
     address.delegate = self;
     
-    [address setPickerViewHeight:300 titleViewHeight:50];//跳转titleView和本View高度
+    [address setPickerViewHeight:300 titleViewHeight:50];//调整titleView和本View高度
     [self.view addSubview:address];
-
-
 
 
 ```
